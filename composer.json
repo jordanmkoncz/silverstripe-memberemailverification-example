@@ -1,0 +1,31 @@
+{
+    "name": "silverstripe/installer",
+    "description": "The SilverStripe Framework Installer",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/jordanmkoncz/silverstripe-memberemailverification.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "silverstripe/cms": "~3.1",
+        "silverstripe/framework": "~3.1",
+        "silverstripe/siteconfig": "~3.1",
+        "silverstripe-themes/simple": "~3.1",
+        "jordanmkoncz/silverstripe-memberemailverification": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "~3.7"
+    },
+    "extra": {
+        "branch-alias": {
+            "3.x-dev": "3.3.x-dev"
+        }
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,7 @@
+---
+Name: profile-routes
+After: framework/routes#coreroutes
+---
+Director:
+  rules:
+    'profile//$Action/$ID/': 'ProfileController'
