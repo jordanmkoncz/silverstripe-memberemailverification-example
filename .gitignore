@@ -1,0 +1,42 @@
+# Editor-related files
+*.iml
+*.out
+*.pid
+*.seed
+*.sublime-*
+*.swo
+*.swp
+*.tgz
+*.db
+.idea
+.project
+
+# OS-related files
+*~
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Cache folder
+/silverstripe-cache/
+
+# Composer vendor folder
+/vendor/
+
+# Logs
+/logs/
+
+# Assets
+/assets/
+
+# Evironment files
+_ss_environment.php
+
+# Modules
+/cms/
+/framework/
+/memberemailverification/
+/reports/
+/siteconfig/
