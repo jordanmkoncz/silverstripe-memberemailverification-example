@@ -10,6 +10,8 @@ To set up this example project:
  - `cd path/to/cloned/repository`
  - `composer install`
 
+Then create your `_ss_environment.php` file to specify the typical settings (database, environment, etc.).
+
 ## About
 
  - In `mysite/_config/config.yml` we define the `Email.admin_email` setting, which is the email address that verification emails are sent from.
